@@ -78,4 +78,4 @@ The data is confidential client data, so it is **not included** in this reposito
 ## Author
 
 **Darshit** – Data Science
-[LinkedIn](#) | [GitHub](#)
+LinkedIn : www.linkedin.com/in/darshit-rathod-20712922b | GitHub : https://github.com/darshitrathod16
