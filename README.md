@@ -1,14 +1,14 @@
 # Bank GoodCredit – Credit Risk Scoring
 
-A credit risk project for a bank client. The goal is to predict which credit card customers are likely to miss payments, so the bank can reduce default losses.
+- A credit risk project for a bank client. The goal is to predict which credit card customers are likely to miss payments, so the bank can reduce default losses.
 
-**Project ID:** PM-PR-0015 | **Domain:** Banking – Credit Risk | **Tools:** Python, MySQL, scikit-learn, XGBoost
+**Project ID:** PM-PR-0015 | **Domain:** Banking – Credit Risk | **Tools:** Python, MySQL, scikit-learn, XGBoost.
 
 ---
 
 ## Business Problem
 
-Bank GoodCredit wants a credit score for its current credit card customers. The score should show how trustworthy a customer is, and rank customers from low risk to high risk.
+- Bank GoodCredit wants a credit score for its current credit card customers. The score should show how trustworthy a customer is, and rank customers from low risk to high risk.
 
 - **Target:** `Bad_label`
   - `0` = good credit history
@@ -17,7 +17,7 @@ Bank GoodCredit wants a credit score for its current credit card customers. The 
 
 ## Data
 
-The data comes from a MySQL database with three tables:
+- The data comes from a MySQL database with three tables:
 
 | Table | What it has | Rows per customer |
 |---|---|---|
@@ -25,7 +25,7 @@ The data comes from a MySQL database with three tables:
 | `Cust_Enquiry` | Credit enquiries (date, purpose, amount) | Many |
 | `Cust_Demographics` | Current applications, 79 hidden features and `Bad_label` | One |
 
-The data is confidential client data, so it is **not included** in this repository. The 79 demographic features are renamed by the bank, so their meaning is unknown.
+- The data is confidential client data, so it is **not included** in this repository. The 79 demographic features are renamed by the bank, so their meaning is unknown.
 
 ## Approach
 
